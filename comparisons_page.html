@@ -50,6 +50,15 @@ div {
   background-color: white;
 }
 
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 40px;
+  align-items: stretch;
+  }
+.grid img {
+  max-width: 100%;
+}
 </style>
 
 <body>
@@ -96,8 +105,9 @@ div {
 <hr>
 <p>Click any plot to get an in-depth analysis</p>
 
-      <!-- First Row -->
+      <!-- First Row
 <div class="row">
+  <div class="column">
 <div class="col-xs-1 col-sm-1 col-md-2"></div>
 <h3>vs. Max Temperature</h3>
 <a href="https://danboulden.github.io/Homework_9_WebPages/v1"><p><img style="padding: 5 5px; margin: 5px; float: left; " src="https://danboulden.github.io/Homework_9_WebPages/Fig1.png" alt="City Latitude vs. Max Temp"/></p></a>
@@ -105,7 +115,8 @@ div {
 <div class="col-xs-1 col-sm-1 col-md-2"></div>
 <h3>vs. Humidity</h3>
 <a href="https://danboulden.github.io/Homework_9_WebPages/v2"><p><img style="padding: 5 5px; margin: 5px; float: left;" src="https://danboulden.github.io/Homework_9_WebPages/Fig2.png" alt="City Latitude vs. Max Temp"/></p></a>
-
+</div>
+<div class="column">
 
     <div class="col-xs-1 col-sm-1 col-md-2"></div>
     <h3>vs. Cloudiness</h3>
@@ -114,11 +125,42 @@ div {
 <div class="col-xs-1 col-sm-1 col-md-2"></div>
 <h3>vs. Max Wind Speed</h3>
 <a href="https://danboulden.github.io/Homework_9_WebPages/v4"><p><img style="padding: 5 5px; margin: 5px; float: left;" src="https://danboulden.github.io/Homework_9_WebPages/Fig4.png" alt="City Latitude vs. Max Temp"/></p></a>
+</div>
+
+</div>
+</div>
+</div> -->
+
+<div class="row">
+    <div class="column">
+        <h3>vs. Max Temperature</h3>
+        <a href="https://danboulden.github.io/Homework_9_WebPages/v1"><p><img style="padding: 5 5px; margin: 5 5px; float: left; " src="https://danboulden.github.io/Homework_9_WebPages/Fig1.png" alt="City Latitude vs. Max Temp"/></p></a>
+      </div>
+      <div class="column">
+        <h3>vs. Humidity</h3>
+        <a href="https://danboulden.github.io/Homework_9_WebPages/v2"><p><img style="padding: 5 5px; margin: 5 5px; float: left;" src="https://danboulden.github.io/Homework_9_WebPages/Fig2.png" alt="City Latitude vs. Max Temp"/></p></a>
+    </div>
+    </div>
+    <div class="row">
+    <div class="column">
+        <h3>vs. Cloudiness</h3>
+        <a href="https://danboulden.github.io/Homework_9_WebPages/v3"><p><img style="padding: 5 5px; margin: 5 5px; float: left;" src="https://danboulden.github.io/Homework_9_WebPages/Fig3.png" alt="City Latitude vs. Max Temp"/></p></a>
+    </div>
+    <div class="column">
+        <h3>vs. Max Wind Speed</h3>
+        <a href="https://danboulden.github.io/Homework_9_WebPages/v4"><p><img style="padding: 5 5px; margin: 5 5px; float: left;" src="https://danboulden.github.io/Homework_9_WebPages/Fig4.png" alt="City Latitude vs. Max Temp"/></p></a>
+      </div>
+  </div>
 
 
-</div>
-</div>
-</div>
+  <!-- <main class="grid">
+      <        <a href="https://danboulden.github.io/Homework_9_WebPages/v1"><p><img style="padding: 5 5px; margin: 5 5px; float: left; " src="https://danboulden.github.io/Homework_9_WebPages/Fig1.png" alt="City Latitude vs. Max Temp"/></p></a>
+      <a href="https://danboulden.github.io/Homework_9_WebPages/v2"><p><img style="padding: 5 5px; margin: 5 5px; float: left;" src="https://danboulden.github.io/Homework_9_WebPages/Fig2.png" alt="City Latitude vs. Max Temp"/></p></a>
+      <a href="https://danboulden.github.io/Homework_9_WebPages/v3"><p><img style="padding: 5 5px; margin: 5 5px; float: left;" src="https://danboulden.github.io/Homework_9_WebPages/Fig3.png" alt="City Latitude vs. Max Temp"/></p></a>
+      <a href="https://danboulden.github.io/Homework_9_WebPages/v4"><p><img style="padding: 5 5px; margin: 5 5px; float: left;" src="https://danboulden.github.io/Homework_9_WebPages/Fig4.png" alt="City Latitude vs. Max Temp"/></p></a>
+
+    </main> -->
+
 
 </body>
 
