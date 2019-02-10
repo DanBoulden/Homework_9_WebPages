@@ -11,12 +11,14 @@
     .navbar {
         padding: 10px;
         background: white;
+        margin: 0px;
       }
       
       .navbar-default .navbar-brand {
         background:  rgb(0, 125, 134);
         font: rgb(255, 255, 255);
         color: white;
+        margin: 0px;
       }
 
     /* background: rgb(70, 147, 170); } */
