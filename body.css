@@ -18,6 +18,17 @@ h2 {
     font-weight: bold;
 }
 
+figcaption {
+    padding: 10px;
+    margin: 0;
+    color:  rgb(0, 125, 134);
+    font-size: 20px;
+    font-family:  "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+    /* text-align:center;     */
+}
+
 h3 {
     padding: 10px;
     margin: 0;
@@ -25,5 +36,6 @@ h3 {
     font-size: 20px;
     font-family:  "Times New Roman", Times, serif;
     font-weight: bold;
+    text-align: center;
     /* text-align:center;     */
 }
