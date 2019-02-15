@@ -39,3 +39,9 @@ h3 {
     text-align: center;
     /* text-align:center;     */
 }
+
+container {
+    background-color: rgb(204, 204, 204);
+    margin-left: auto;
+    margin-right: auto;
+}
